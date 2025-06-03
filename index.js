@@ -58,7 +58,7 @@ function styleList(listId, imagesObj) {
             img.style.marginBottom = "5%"
             img.style.display = 'block';
             ul.style.textAlign = "center";
-            img.style.marginRight = "18px";
+            img.style.margin = "18px auto";
             li.prepend(img);
         }
     });
