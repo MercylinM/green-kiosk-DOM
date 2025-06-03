@@ -15,8 +15,7 @@ h3s.forEach(function (h3) {
     h3.style.color = "#006400";
     h3.style.backgroundColor = "#fff";
     h3.style.padding = "20px";
-    h3.style.marginTop = "35px";
-    h3.style.marginLeft = "40px";
+    h3.style.margin = "35px auto"
 });
 
 var fruList = document.getElementById('fruList');
@@ -40,11 +39,11 @@ function styleList(listId, imagesObj) {
     ul.querySelectorAll('li').forEach(function (li) {
         li.style.background = "#fff";
         li.style.borderRadius = "8px";
-        li.style.margin = "12px 0";
+        li.style.margin = "12px auto";
         li.style.display = "flex";
         li.style.flexDirection = "column";
         li.style.justifyContent = "center";
-        li.style.width = "330px"
+        li.style.width = "300px"
         li.style.alignItems = "center";
         li.style.padding = "10px 18px";
         li.style.boxShadow = "0 2px 8px rgba(0,0,0,0.07)";
